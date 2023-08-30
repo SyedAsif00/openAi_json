@@ -1,6 +1,6 @@
 import openai
-
-api_key = "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"
+from config import API_KEY
+api_key = API_KEY
 
 query = """
 3X40  CNTR(S) S.T.C
